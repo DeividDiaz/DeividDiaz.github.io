@@ -1,0 +1,200 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  padding-right: 20px;
+  align-items: flex-start;
+  margin: 50px 305px;
+  text-decoration: none;
+  color: black;
+
+}
+
+header a {
+  padding: 20px;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  
+
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  padding: 0;
+  display: flex;
+}
+
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+  justify-content: space-between;
+  font-weight: 600;
+  padding-right: 20px;
+}
+
+.btn-ghost li {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  font-weight: 600;
+  padding-right: 20px;
+
+}
+
+.btn-ghost{
+  position: relative;
+  display: inline-block;
+  background-color: #c4153e;
+  font-weight: 600;
+  padding-right: 20px;
+  border-radius: 40px;
+}
+
+
+header {
+  display: flex;
+  height: 80px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  height: 50px;
+  margin-right: 20px;
+}
+
+.nav menu{
+  display: flex;
+}
+
+.nav menu ul li a{
+  justify-content: space-between;
+}
+
+
+
+header .box_1 {
+  display: flex;
+}
+
+header .box_1 {
+  margin: 30px 50px;
+}
+
+header .box_1 {
+  text-align: center;
+  padding: 30px;
+  width: 70%;
+  margin: 100px 400px;
+}
+
+h2 {
+  padding-right: 40px;
+  font-size: 50px ;
+}
+
+
+.container .box_1 img {
+  display: flex;
+}
+
+.container .box_1 img {
+  width: 20%;
+  height: auto;
+
+}
+
+
+/*Aquí debajo va el footer*/
+
+footer{
+  width: 100%;
+  padding: 50px 0px;
+  background-size: cover;
+  
+}
+
+.container__footer{
+  background-color: #c4153e;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.box__footer{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.box__footer .logo img{
+  width: 180px;
+}
+
+.box__footer .terms{
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+}
+
+.box__footer h2{
+  margin-bottom: 30px;
+  color: white;
+  font-weight: 700;
+}
+
+.box__footer a{
+  margin-top: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.box__footer a:hover{
+  opacity: 0.8;
+}
+
+.box__footer a .fab{
+  font-size: 20px;
+}
+
+.box__copyright{
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.box__copyright p{
+  margin-top: 20px;
+  color: white;
+}
+
+.box__copyright hr{
+  border: none;
+  height: 1px;
+  background-color: white;
+}
